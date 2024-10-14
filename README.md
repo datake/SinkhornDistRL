@@ -12,6 +12,12 @@ This repository contains the Pytorch implementation of our Sinkhorn Distribution
 
 Install [OpenAI Baselines](https://github.com/openai/baselines), and then install dependency in `requirement.txt`.
 
+```
+git clone https://github.com/openai/baselines.git
+cd baselines
+pip install -e .
+```
+
 ### Step 2: Run Distributional RL algorithms on 55 Atari Games
 
 We take the Breakout environment as an example. Run the following code respectively and then plot the learning curves. (Note: `--multi 0` by default)
